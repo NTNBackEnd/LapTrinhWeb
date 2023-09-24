@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#header {
+  width: 900px;
+  height: 120px;
+  background-color: #c49e55;
+  border: 3px solid;
+}
+#header p{
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+#image {
+  width: 900px;
+  height: 400px;
+  background-color: rgba(175, 172, 172, 0.92);
+  border: 3px solid;
+  margin-top: 50px;
+}
+#image p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+}
+#image .company_image{
+  font-size: 50px;
+}
+#services {
+  width: 900px;
+}
+#services p {
+  font-size: 60px;
+  text-align: center;
+}
+#layout_services {
+  height: 300px;
+  width: 900px;
+}
+#layout_services .square {
+  background-color: rgba(175, 172, 172, 0.92);
+  height: 220px;
+  width: 180px;
+  display: inline-block;
+  margin: 50px;
+  border: 3px solid;
+}
+#layout_services p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+#layout_services2 {
+  height: 300px;
+  width: 900px;
+}
+#layout_services2 .square {
+  background-color: rgba(175, 172, 172, 0.92);
+  height: 220px;
+  width: 180px;
+  display: inline-block;
+  margin: 50px;
+  border: 3px solid;
+}
+#footer {
+  width: 900px;
+  height: 120px;
+  background-color: rgba(71, 105, 150, 0.92);
+}
+#footer p {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin: 5px;
+}
+
