@@ -53,6 +53,9 @@ body{
     margin-bottom: 9px;
 }
 .form .container .date_of_birth #birth .item {
+    background: #f9f9f9;
+    border: none;
+    border: 1px solid #f0f0f0;
     width: 26px;
     height: 23px;
     font-size: 9px;
@@ -80,11 +83,39 @@ body{
 .form .container .gender .container_gender .item {
     height: 25px;
     width: 70px;
-    border: 1px solid;
+    background: #f9f9f9;
+    border: 1px solid #f0f0f0;
 }
 .form .container .gender .container_gender .item span {
-    padding: 25px;
+    padding: 21px;
 }
 .form .container .payment {
     margin-top: 76px;
+}
+.form .container .payment span.title{
+    width: 63px;
+    font-weight: bold;
+    color: #8fd93d;
+    margin-left: 25px;
+    margin-bottom: 9px;
+}
+.form .container .payment .pay {
+    display: flex;
+    margin-top: 10px;
+}
+.form .container .payment .visa i {
+    margin-right: 2px;
+    margin-left: 35px;
+}
+.form .container .payment .paypal i {
+    margin-right: 2px;
+    margin-left: 55px;
+}
+.form .container .payment .item {
+    width: 150px;
+    background: #f9f9f9;
+    border: 1px solid #f0f0f0
+}
+.form .container .payment .visa {
+    margin-left: 25px;
 }
