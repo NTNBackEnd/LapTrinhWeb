@@ -1,0 +1,313 @@
+body {
+    font-family: Tahoma,Arial,sans-serif;
+    width: 1500px;
+    margin: auto;
+}
+#section_text_2 .container {
+    width: auto;
+    height: 100px;
+    background-color: #f3f3f3;
+}
+#section_text_2 .container img {
+    width: auto;
+    height: 30px;
+    float: left;
+    padding: 30px;
+    margin-left: 273px;
+}
+#section_text_2 .container a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 18px 27px;
+    background: orange;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 23px;
+    margin-right: 295px;
+}
+
+#section_header_1 {
+    width: auto;
+    height: 80px;
+}
+#section_header_1 .container .bottom-icons {
+    float: right;
+}
+#section_header_1 .container li {
+    display: inline-block;
+}
+#section_header_1 .container .bottom-icons li {
+    margin: 10px;
+    position: relative;
+    bottom: 7px;
+    right: 295px;
+    font-size: 20px;
+}
+#section_header_1 .container #navbar-collapse-02 li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:darkgray;
+    margin: 15px;
+    position: relative;
+    left: 240px;
+}
+
+/*Chua xong*/
+#section_slider {
+    width: 100%;
+    height: 550px;
+    background-color: #eeeeee;
+}
+/*Slide show */
+#section_slider .container {
+    width: 80%;
+    height: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 60px;
+
+}
+#section_slider .container .item {
+    display: none;
+    height: 476px;
+}
+#section_slider .container .active {
+    display: block;
+}
+#section_slider .container .item img{
+    width: 100%;
+    height: 425px;
+}
+#section_slider .container .carousel-caption {
+    position: relative;
+    bottom: 120px;
+    left: 30px;
+    color: white;
+
+}
+#section_slider .container img {
+    vertical-align: middle;
+}
+/*Next & Prev Slide*/
+#myCarousel a {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    padding: 13px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+#myCarousel .right{
+    right:11%;
+    border-radius: 50px;
+}
+#myCarousel .left{
+    border-radius: 50px;
+}
+.left:hover,.right:hover {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+/*Phan tiep theo gym_life*/
+.gym_life .container {
+    width: 100%;
+    height: 400px;
+}
+.gym_life .container .one-third{
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 110px;
+    position: relative;
+    left: 15%;
+}
+.gym_life .container .one-third img{
+    width: 120%;
+    border-radius: 200px;
+    margin-left: 70px;
+}
+.gym_life .container p {
+    position: relative;
+    left: 80px;
+    font-size: 12px;
+    color: darkgray;
+}
+.gym_life .container .gym_st{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 90px;
+}
+.gym_life .container a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f77825;
+    position: relative;
+    left: 110px;
+    top: 30px;
+}
+/**id section_intro_title
+ */
+#section_intro_title .container{
+    width: 100%;
+    height: 400px;
+    background-color: #f3f3f3;
+
+}
+#section_intro_title .one-third {
+    display: inline-block;
+    background-color: white;
+    width: 15%;
+    height: 350px;
+    margin: 18px;
+    border: 2px solid #dedada;
+    position: relative;
+    left: 360px;
+}
+#section_intro_title .big_title {
+    color: deepskyblue;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#section_intro_title .light_gray {
+    color: grey;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+#section_intro_title .flat_pricing_list li{
+    list-style-type: none;
+}
+#section_intro_title .flat_pricing_list {
+    padding: 0;
+}
+#section_intro_title .flat_pricing_list .pix_text {
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#section_intro_title .flat_pricing a{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    font-size: 15px;
+    background-color: #2dc0e8;
+    border-radius: 5px;
+    margin-left: 17%;
+}
+#section_intro_title .flat_pricing .orange{
+    color: #f77825;
+}
+#section_intro_title .flat_pricing .orange_bg {
+    background-color: #f77825;
+}
+/* Footer*/
+#section_party_3{
+    width: 100%;
+    height: 450px;
+    background-color: #191919;
+    position: relative;
+}
+#section_party_3 .container {
+    background-color: #151515;
+    width: 350px;
+    height: 350px;
+    border: #252525 1px solid;
+    position: absolute;
+    left: 39%;
+    top: 11%;
+    text-align: center;
+}
+
+#section_party_3 .container .editContent span{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#section_party_3 .container .headtext_style{
+    margin-top: 30px;
+}
+#section_party_3 .segment {
+    width: 70px;
+    height: 6px;
+    background-color: #1c8ff5;
+    margin: 20px 40%;
+}
+#section_party_3 .container .editContent .subtext_style{
+    color: grey;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+#section_party_3 .container #name{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#section_party_3 .container #email{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#section_party_3 .container #submit_btn_15{
+    width: 90%;
+    height: 37px;
+    border-radius: 5px;
+    background-color: #1e68df;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+/*section_party_4*/
+#section_party_4  .container {
+    width: 100%;
+    height: 50px;
+    background-color: #151515;
+}
+#section_party_4 .container .sixteen{
+    display: flex;
+}
+#section_party_4 .container .editContent .pix_text .rights_st {
+    color: grey;
+    font-size: 13px;
+    position: relative;
+    top: 23%;
+    left: 340px;
+}
+#section_party_4 .container .editContent .pix_text .pixfort_st {
+    color: #1e68df;
+}
+#section_party_4 .container .socbuttons li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 20px;
+    position: relative;
+    left: 700px;
+}
+#section_party_4 .container .socbuttons .editContent .pix_text {
+    color: grey;
+    font-size: 15px;
+    position: relative;
+    bottom: 35px;
+    left: 500px;
+
+}

@@ -1,0 +1,218 @@
+#header {
+    width: 100%;
+    height: 250px;
+    display: flex;
+
+}
+#header img {
+    margin: 50px 30% 80px 22%;
+}
+#header p {
+    margin-right: 40px;
+    font-size: 50px;
+    color: #999999;
+}
+#header a {
+    margin: 5px 30px 5px 25px;
+}
+#body {
+    background-color: #383737;
+    width: 100%;
+    height: 100em;
+}
+#body img {
+    display: inline-block;
+    margin: 200px 0 100px 22%;
+}
+#body .title {
+    display: inline-block;
+    color: #2a82d7;
+    position: relative;
+    bottom: 1250px;
+    left: 80px;
+    font-weight: bold;
+    font-size: 70px;
+}
+#body .title2 {
+    margin: 0;
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 900px;
+    right: 630px;
+    font-size: 150px;
+    font-weight: bold;
+}
+#body .content {
+    margin: 0;
+    display: inline-block;
+    color: #888888;
+    position: relative;
+    bottom: 18em;
+    left: 49em;
+    font-size: 50px;
+}
+#body a {
+    display: inline-block;
+    background-color: #5eaef5;
+    width: 27em;
+    height: 10em;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 45em;
+    left: 75em;
+    text-decoration: none;
+}
+#body a p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+#body2 {
+    width: 100%;
+    height: 50em;
+    background-color: #c4c0c0;
+}
+#body2 .header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 0;
+    position: relative;
+    top: 30px
+}
+#body2 .header2 {
+    text-align: center;
+    font-size: 40px;
+}
+#body2 .envato {
+    display: inline-block;
+    width: 75em;
+    height: 22em;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 5em;
+    left: 65em;
+}
+
+#body2 .envato .logo{
+    display: inline-block;
+    border-radius: 150px;
+    margin: 50px;
+}
+#body2 .envato p {
+    display: inline-block;
+    position: relative;
+    bottom: 5em;
+    left: 1em;
+    font-size: 40px;
+}
+#body2 .envato .star {
+    display: inline-block;
+    position: relative;
+    bottom: 12em;
+    left: 24em;
+}
+#body2 .envato a {
+    color: #2a82d7;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 5em;
+    left: 10em;
+}
+#body2 .unboune {
+    display: inline-block;
+    width: 75em;
+    height: 22em;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 5em;
+    left: 70em;
+}
+#body2 .unboune .logo {
+    display: inline-block;
+    border-radius: 150px;
+    margin: 50px;
+}
+#body2 .unboune p {
+    display: inline-block;
+    position: relative;
+    bottom: 5em;
+    left: 1em;
+    font-size: 40px;
+}
+#body2 .unboune .star {
+    display: inline-block;
+    position: relative;
+    bottom: 12em;
+    left: 24em;
+}
+#body2 .unboune a {
+    color: #2a82d7;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+    bottom: 5em;
+    left: 10em;
+}
+#footer .header {
+    color: #7ac77a;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+}
+#footer .content {
+    color: #888888;
+    text-align: center;
+    font-size: 50px;
+}
+#footer .button{
+    border: 3px solid green;
+    width: 35em;
+    height: 10em;
+    position: relative;
+    left: 125em;
+}
+#footer .button a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5em;
+    position: relative;
+    top: 30%;
+    left: 15%;
+}
+#footer .content2 {
+    color: #888888;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+#footer .content3, .content4{
+    color: #888888;
+    font-size: 30px;
+    position: relative;
+    left: 71em;
+}
+
+#footer .content4 a {
+    text-decoration: none;
+    color: green;
+}
+#footer .icon {
+    position: relative;
+    top: 8em;
+    left: 117em;
+}
