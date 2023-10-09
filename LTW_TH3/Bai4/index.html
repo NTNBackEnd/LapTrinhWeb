@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Form pay money</title>
+</head>
+<body>
+    <div class="form">
+        <form class="container">
+            <div class="account">
+                <span>Account</span>
+            </div>
+            <div class="account">
+                <div class="item fullname">
+                    <i class="fa-solid fa-user" style="color: #b9b9b9;"></i>
+                    <input type="text" name="full name" placeholder="Full Name">
+                </div>
+                <div class="item email">
+                    <i class="fa-solid fa-envelope" style="color: #b9b9b9;"></i>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="item password">
+                    <i class="fa-solid fa-key" style="color: #b9b9b9;"></i>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+            </div>
+            <div class="date_of_birth">
+                <span>Date of Birth</span>
+                <div id="birth">
+                    <input class="item date" type="text" name="date" placeholder="DD">
+                    <input class="item month" type="text" name="month" placeholder="MM">
+                    <input class="item year" type="text" name="year" placeholder="YYYY">
+                </div>
+            </div>
+            <div class="gender">
+                <span class="title">Gender</span>
+                <div class="container_gender">
+                    <div class="item male">
+                        <span>Male</span>
+                    </div>
+                    <div class="item female">
+                        <span>Female</span>
+                    </div>
+                </div>
+            </div>
+            <div class="payment">
+                <span>Payment Details</span>
+                <div class="item visa">
+                    <i class="fa-brands fa-cc-visa" style="color: #b9b9b9;"></i>
+                    <span>Credit Card</span>
+                </div>
+                <div class="paypal">
+                    <i class="fa-brands fa-cc-paypal" style="color: #b9b9b9;"></i>
+                    <span>Paypal</span>
+                </div>
+                <div class="card_number">
+                    <i class="fa-regular fa-credit-card" style="color: #b9b9b9;"></i>
+                    <input type="text" name="card number" placeholder="Card Number">
+                </div>
+                <div class="card_cvc">
+                    <i class="fa-solid fa-user" style="color: #b9b9b9;"></i>
+                    <input type="text" name="Card CVC" placeholder="Card CVC">
+                </div>
+                <div class="date_month">
+                    <select id="date_month">
+                       <option value="">01 Jan</option>
+                        <option value="2">02 Jan</option>
+                        <option value="3">03 Jan</option>
+                        <option value="4">04 Jan</option>
+                    </select>
+                </div>
+                <div class="year">
+                    <select id="year">
+                        <option value="">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                    </select>
+                </div>
+            </div>
+            <div class="condition">
+                <div class="terms">
+                    <span>Terms and Conditions</span>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox">
+                    <span>I accept  the terms and conditions for signning up to this service, and hereby confirm i have read the privacy policy.</span>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

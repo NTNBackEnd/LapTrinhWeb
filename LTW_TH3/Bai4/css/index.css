@@ -1,0 +1,90 @@
+body{
+    font-size: 10px;
+    font-family: Arial ;
+    margin: 0;
+    padding: 0;
+}
+.form .container {
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border: 5px solid #e3e3e3;
+    border-bottom: 10px solid #e3e3e3;
+    border-right: 10px solid #e3e3e3;
+}
+.form .container .account {
+    color: #8fd93d;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.form .container .account .item {
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    background: #f9f9f9;
+    border: 1px solid #f0f0f0;
+    margin-right: 35px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.form .container .item i {
+    margin: 9px;
+}
+.form .container .item input {
+    width: 251px;
+    height: 28px;
+    border: none;
+    background: #f9f9f9;
+    font-size: 10px;
+    padding-left: 13px;
+    border-left: 1px solid #f0f0f0;
+}
+.form .container .date_of_birth {
+    display: grid;
+    float: left;
+}
+.form .container .date_of_birth span{
+    width: 63px;
+    font-weight: bold;
+    color: #8fd93d;
+    margin-left: 25px;
+    margin-bottom: 9px;
+}
+.form .container .date_of_birth #birth .item {
+    width: 26px;
+    height: 23px;
+    font-size: 9px;
+    margin-right: 10px;
+}
+.form .container .date_of_birth #birth {
+    width: 145px;
+    margin-left: 25px;
+    display: flex;
+
+}
+.form .container .gender {
+    display: grid;
+    float: right;
+}
+.form .container .gender .title {
+    font-weight: bold;
+    color: #8fd93d;
+    margin-bottom: 9px;
+}
+.form .container .gender .container_gender {
+    width: 170px;
+    display: flex;
+}
+.form .container .gender .container_gender .item {
+    height: 25px;
+    width: 70px;
+    border: 1px solid;
+}
+.form .container .gender .container_gender .item span {
+    padding: 25px;
+}
+.form .container .payment {
+    margin-top: 76px;
+}

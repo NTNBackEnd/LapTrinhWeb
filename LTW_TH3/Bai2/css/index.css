@@ -1,0 +1,148 @@
+body{
+    font-size: 12px;
+    font-family:  Arial ;
+    margin: 0;
+    padding: 0;
+}
+form #container {
+    border: 8px solid #e6e6e6;
+    border-bottom: 16px solid #e6e6e6;
+    margin: auto;
+    width: 560px;
+    height: 490px;
+}
+form #container .item{
+    margin: 10px;
+    border: 2px solid #c9c2c2;
+    border-radius: 8px;
+}
+form #container .contact {
+    margin-left: 220px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form #container .contact span{
+    font-size: 20px;
+    font-weight: bold;
+}
+form #container .fullname {
+    width: 500px;
+    height: 50px;
+    margin-left: 30px;
+    background: #f7f7f7;
+}
+form #container .fullname label{
+    display: block;
+    margin-left: 20px;
+    font-size: 8px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+form #container .fullname input {
+    background-color:  #f7f7f7;
+    width: 470px;
+    margin-left: 17px;
+    border: none;
+
+}
+form #container .email {
+    width: 240px;
+    height: 50px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 5px;
+    background: #f7f7f7;
+}
+form #container .email span {
+    display: block;
+    margin-left: 20px;
+    font-size: 8px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+form #container .email input {
+    background-color:  #f7f7f7;
+    width: 220px;
+    margin-left: 17px;
+    border: none;
+}
+form #container .phone {
+    width: 240px;
+    height: 50px;
+    float: right;
+    margin-right: 30px;
+    margin-left: 5px;
+    background: #f7f7f7;
+}
+form #container .phone span{
+    display: block;
+    margin-left: 20px;
+    font-size: 8px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+form #container .phone input {
+    background-color:  #f7f7f7;
+    width: 220px;
+    margin-left: 17px;
+    border: none;
+}
+form #container .services {
+    width: 500px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 86px;
+    background: #f7f7f7;
+}
+form #container .services span{
+    display: block;
+    margin-left: 20px;
+    font-size: 8px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+form #container .services select {
+    background-color:  #f7f7f7;
+    width: 470px;
+    margin-left: 17px;
+    border: none;
+}
+form #container .message {
+    width: 500px;
+    height: 100px;
+    margin-left: 30px;
+    background: #f7f7f7;
+}
+form #container .message span {
+    display: block;
+    margin-left: 20px;
+    font-size: 8px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+form #container .message input {
+    background-color:  #f7f7f7;
+    margin-left: 10px;
+    border: none;
+}
+form #container .message .text{
+    width: 480px;
+    height: auto;
+    white-space: normal;
+    overflow: auto;
+    background: #f7f7f7;
+    border: none;
+}
+form #container .submit {
+    margin-left: 30px;
+}
+form #container .submit #submit{
+    width: 500px;
+    height: 30px;
+
+    border-radius: 50px;
+    background-color: #333333;
+}
+form #container .submit #submit span{
+    color: white;
+}
