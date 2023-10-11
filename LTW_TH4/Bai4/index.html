@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LTW4</title>
+</head>
+<style>
+    .container {
+        width: 500px;
+        height: 300px;
+        border:2px solid #5b7cb4;
+        background-color: #b8c1d2;
+        margin: auto;
+        text-align: center;
+    }
+    .container .content2 {
+        width: 380px;
+        height: 50px;
+    }
+    .container button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 90px;
+        height: 40px;
+        background-color: #2dc0e8;
+        border: none;
+        cursor: pointer;
+    }
+    .container div label {
+        margin-left: -68px;
+    }
+    .container div.area {
+        margin-top: 30px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="area">
+            <textarea id="A" class="content" rows="5" cols="50" placeholder="Dữ liệu"></textarea>
+        </div>
+        <div>
+            <input type="text" id="B" class="content2" placeholder="Dữ liệu tìm">
+        </div>
+       <div>
+           <button id="submit">Đếm</button>
+       </div>
+        <div>
+            <label>Số lần xuất hiện:</label>
+            <span id="result"></span>
+        </div>
+    </div>
+<script>
+    let button = document.getElementById("submit");
+    button.addEventListener("click",demDoanVan);
+
+   function demDoanVan() {
+       let A = document.getElementById("A").value;
+       let B = document.getElementById("B").value;
+       //Sử dụng biểu thức chính quy để tìm số lần xuất hiện
+       let regexp = new RegExp(B,"gi");//gi để tìm không phân biệt chữ hoa hay thường
+       let matches = A.match(regexp); //pt này tìm những cái từ trong regexp có trong A và chứa nó như list
+       if(A == "" || B == "" ){
+           document.getElementById("result").textContent = "Chưa có đủ dữ liệu";
+       }else if(matches) {
+          let count = matches.length; //kết quả đếm
+           document.getElementById("result").textContent = count;
+       }else {
+           document.getElementById("result").textContent = "Không tìm thấy đoạn văn";
+       }
+   }
+
+</script>
+</body>
+</html>

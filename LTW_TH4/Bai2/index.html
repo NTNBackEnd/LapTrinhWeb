@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PT Bac2</title>
+</head>
+<body>
+  <script>
+    function PTBac2(a,b,c){
+      document.write(a+"x^2 +" + b +"x +" + c + " = 0");
+      let delta = Math.pow(b,2) - 4*a*c;
+      if(delta > 0){
+        let x1 = (-b + Math.sqrt(delta)) / (2*a);
+        let x2 = (-b - Math.sqrt(delta)) / (2*a);
+        document.write(" ==> x1 = "+ x1 + ",x2 = " + x2);
+      }else if(delta == 0) {
+        let x = -b/(2*a);
+        document.write(" ==> x = " + x);
+      }else {
+        document.write(" ==> Phương trình vô nghiệm");
+      }
+    }
+    /*Thực hiện method PTBac2(a,b,c)*/
+    PTBac2(1,2,1);
+  </script>
+</body>
+</html>

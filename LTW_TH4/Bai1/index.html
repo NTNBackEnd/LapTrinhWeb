@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backgroup Color</title>
+</head>
+<style>
+    body {
+        background-color: #7f7f7f;
+    }
+    button.item{
+       padding: 40px;
+        border: none;
+    }
+</style>
+<body>
+
+                <button class="item" id="red" style="background-color:red;"></button>
+
+                <button class="item" id="orange" style="background-color:orange;"></button>
+
+                <button class="item" id="yellow" style="background-color:yellow;"></button>
+
+                <button class="item" id="blue" style="background-color: blue;"></button>
+
+                <button class="item" id="green" style="background-color: green;"></button>
+
+                <button class="item" id="black" style="background-color: black;"></button>
+
+                <button class="item" id="pink" style="background-color: pink;" ></button>
+
+                <button class="item" id="white" style="background-color: white;"></button>
+
+    <script>
+        var buttons = document.querySelectorAll(".item");
+        //gắn sự kiện onclick
+        buttons.forEach(function (button){
+            button.onclick = function () {
+                //lấy màu của nút
+                var buttonColor = window.getComputedStyle(button).backgroundColor;
+                //thay đổi màu nền theo màu bút
+                document.body.style.backgroundColor = buttonColor;
+            };
+        });
+
+    </script>
+</body>
+
+</html>
